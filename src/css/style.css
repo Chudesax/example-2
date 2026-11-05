@@ -333,23 +333,20 @@ html {
     align-items: center;
     justify-content: space-between;
     column-gap: 40px;
-    .footer__facebook {
-      border: 2px solid #fff;
-      background: url("../icons/facebook.svg") center center / cover no-repeat;
+    .footer__link {
       width: 32px;
       height: 32px;
+      border: 2px solid #fff;
+    }
+    .footer__facebook {
+      background: url("../icons/facebook.svg") center center / cover no-repeat;
     }
     .footer__whatsapp {
-      border: 2px solid #fff;
       background: url("../icons/whatsapp.svg") center center / cover no-repeat;
-      width: 32px;
-      height: 32px;
     }
     .footer__telegram {
       border: 2px solid #fff;
       background: url("../icons/tg.svg") center center / cover no-repeat;
-      width: 32px;
-      height: 32px;
     }
   }
 
